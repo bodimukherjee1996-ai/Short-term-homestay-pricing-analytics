@@ -1,25 +1,25 @@
-# 🏡 Airbnb Listing Analytics
+# 🏡 Short-Term Rental Pricing Analytics
 
 ## 🚀 Business Problem
 
-Pricing in short-term rental markets is influenced by location, property type, and demand signals.
-Incorrect pricing can lead to **lost revenue or low occupancy rates**.
+Pricing in short-term rental markets directly impacts both **occupancy and revenue**.
+Overpricing reduces bookings, while underpricing leads to lost revenue.
 
-This project analyzes Airbnb listing data to identify **pricing drivers** and support **data-driven pricing strategies**.
+This project builds a **data-driven pricing analytics framework** to identify key price drivers and support optimal pricing decisions.
 
 ---
 
 ## 🎯 Objective
 
 * Identify key factors influencing listing prices
-* Understand relationship between **price and demand**
-* Enable better pricing decisions for hosts
+* Understand the relationship between **price and demand**
+* Support more effective, data-driven pricing strategies
 
 ---
 
 ## 🗂 Dataset
 
-* ~49,000 Airbnb listings (NYC)
+* ~49,000 short-term rental listings (NYC market)
 
 **Key attributes:**
 
@@ -30,37 +30,58 @@ This project analyzes Airbnb listing data to identify **pricing drivers** and su
 
 ---
 
+## 🧹 Data Preparation
+
+* Cleaned missing and inconsistent values
+* Processed categorical variables
+* Removed outliers for stable analysis
+
+---
+
+## 📊 Key Metrics Considered
+
+* Price distribution across listings
+* Demand indicators (reviews, availability)
+* Location-based price variation
+* Price vs demand trade-offs for revenue optimization
+
+---
+
 ## 📊 Analysis Approach
 
-* Performed exploratory analysis using Python
-* Compared pricing across neighborhoods and room types
-* Analyzed relationship between demand indicators and price
+* Exploratory analysis using Python (Pandas, Matplotlib)
+* Compared pricing patterns across neighborhoods and room types
+* Evaluated interaction between pricing and demand signals
 
 ---
 
 ## 🔍 Key Insights
 
-* **Location is the strongest driver of price**, with central areas commanding premium rates
-* **Room type defines pricing ceiling**, with entire homes significantly higher priced
-* Listings with **higher reviews have better booking probability**, indicating demand influence
-* High price alone does not ensure bookings—**demand signals matter equally**
+* Location drives pricing, but **demand signals (reviews & availability) determine booking success**
+* Entire homes have higher price ceilings, but not always better occupancy efficiency
+* Listings with strong demand signals can sustain higher prices without losing bookings
+* Optimal pricing lies in balancing **price vs booking probability**, not maximizing price alone
 
 ---
 
-## 💡 Business Implications
+## 💡 Pricing Strategy Framework
 
-* Pricing strategies should balance **price vs demand**, not price alone
-* Low-review listings may benefit from **competitive pricing or promotions**
-* Hosts can optimize revenue by aligning pricing with **location and demand trends**
+Based on the analysis, an effective pricing strategy should:
+
+* Adjust pricing dynamically based on demand signals
+* Use location as a baseline and demand indicators for optimization
+* Avoid overpricing low-demand listings
+* Focus on revenue optimization instead of price maximization
 
 ---
 
 ## 📈 Business Impact
 
 * Supports data-driven pricing decisions
-* Helps identify high-value listing segments
-* Improves understanding of price-demand trade-offs
+* Helps optimize revenue by balancing price and booking probability
+* Improves understanding of demand-driven pricing dynamics
 
+---
 ---
 
 ## 🛠 Tools & Technologies
@@ -69,6 +90,15 @@ This project analyzes Airbnb listing data to identify **pricing drivers** and su
 
 ---
 
+## 📌 Project Type
+
+* ✔ Pricing Analytics
+* ✔ Market Analysis
+* ✔ Demand Analysis
+
+---
+
 ## 📬 Author
 
 **Bodhisatva Mukherjee**
+
